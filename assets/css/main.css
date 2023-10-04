@@ -29,15 +29,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-	/* Default (Light) Mode Styles */
-	/* ... Your existing styles ... */
-
-	/* Dark Mode Styles */
-	body.dark-mode {
-    	background-color: #333; /* Dark background color */
-    	color: #fff; /* Light text color */
-    /* Add more styles for dark mode as needed */
-}
 body {
 	line-height: 1;
 }
