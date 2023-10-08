@@ -7,7 +7,14 @@ html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #2E3192, #1BFFFF);
+    color: #333;
+    line-height: 1.6;
+	margin: 1
+}
+html, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -1635,7 +1642,7 @@ ul.social li a {
 		-webkit-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
-		background-color: #444;
+		background-color: #0281c0;
 		border-radius: 6px;
 		box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 		color: #2E2E2E !important;
@@ -1663,9 +1670,9 @@ ul.social li a {
 		top: -5px;
 	}
 
-		ul.social li a:hover:before {
-			background-color: transparent;
-		}
+	ul.social li a:hover:before {
+		background-color: transparent;
+	}
 
 /* Actions */
 
