@@ -5,8 +5,8 @@ export default function Header() {
     
   return (
     <>
-    <div class = "App">
-    <body>
+    
+    <div className = "App">
         <section>
         <nav className="scrolled navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
@@ -43,26 +43,37 @@ export default function Header() {
       </section>
 
       <section id = "about">
-        <div class = "text-wrapper">
+        <div className = "text-wrapper">
           <p className = "about-me-font">Hi, my name is</p>
           <p className = "name">Riyaz Rabbani 🚀</p>
           <p className = "regular-font">I am a Computer science student at George Mason University. <br></br>
           With a strong focus on Full-Stack development and Machine Learning/AI,
           Here is a glimpse into who I am: </p>
-          <div class="container">
-            <h1 class="neonText pulsate">
-              Thanks for stopping by
+            <h1 className="neonText pulsate">
+            🖥️🌃🔭☕
             </h1>
-        </div>
         </div>
         <div className = "image-wrapper">
           <img className = "profile-img" src={profile} alt="Me" />
         </div>
       </section>
 
-      <section id = "skills">
-      <p className = "about-me-font">plottin</p>
-      </section>
+      <section id="skills">
+          <div class="container-skills">
+          <div class="skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+            <p>Java</p>
+          </div>
+          <div class="skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+            <p>Python</p>
+          </div>
+          <div class="skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-plain.svg" alt="C" />
+            <p>C</p>
+          </div>
+        </div>
+    </section>
 
       <section id = "experience">
       test
@@ -72,7 +83,6 @@ export default function Header() {
       test
       </section>
 
-    </body>
     </div>
     </>
   );
