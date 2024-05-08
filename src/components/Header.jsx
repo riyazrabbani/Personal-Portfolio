@@ -4,6 +4,9 @@ export default function Header() {
     
   return (
     <>
+    <div class = "App">
+    <body>
+        <section>
         <nav className="scrolled navbar navbar-expand-lg navbar-dark">
         <div className="container-fluid">
             <a href="#" className="navbar-brand">Riyaz Rabbani</a>
@@ -36,6 +39,13 @@ export default function Header() {
             </div>
         </div>
         </nav>
+      </section>
+
+        <section>
+          
+        </section>
+    </body>
+    </div>
     </>
   );
 }
