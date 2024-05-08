@@ -7,9 +7,9 @@ export default function Header() {
     <div class = "App">
     <body>
         <section>
-        <nav className="scrolled navbar navbar-expand-lg navbar-dark">
+        <nav className="scrolled navbar navbar-expand-lg navbar-dark fixed-top">
         <div className="container-fluid">
-            <a href="#" className="navbar-brand">Riyaz Rabbani</a>
+            <a href="#" className="navbar-brand">:)</a>
             <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>            
@@ -41,9 +41,24 @@ export default function Header() {
         </nav>
       </section>
 
-        <section>
-          
-        </section>
+      <section id = "about">
+        <p className = "about-me-font">Hi, my name is</p>
+        <h1 className = "name"><br />Riyaz Rabbani</h1>
+
+      </section>
+
+      <section id = "skills">
+      <p className = "about-me-font">I am a software developer</p>
+      </section>
+
+      <section id = "experience">
+      test
+      </section>
+      
+      <section id = "projects">
+      test
+      </section>
+
     </body>
     </div>
     </>
