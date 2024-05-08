@@ -1,0 +1,60 @@
+
+.right-align {
+    float: right;
+    margin-left: 10px;
+}
+
+.navbar {
+    background-color: rgb(21, 20, 20);
+}
+
+
+.navbar-nav .nav-item .nav-link:active {
+    color: white;
+}
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-left: 10vh;
+    font-size: 22px;
+    margin-right: 10vh;
+
+}
+
+.nav-font {
+    color: rgb(50, 48, 48);
+}
+
+.nav-item {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+
+@media (min-width: 992px) {
+    
+    .navbar-toggler {
+      display: none;
+    }
+    .navbar-nav {
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+
+
+.name-font {
+    font-size: 10px;
+    color: white;
+    align-items: center;
+}
+
+.center-align {
+    display: flex;
+    align-items: center;
+}
+
