@@ -1,4 +1,5 @@
 import '../styles/Header.css';
+import profile from '../assets/profile.jpeg'
 
 export default function Header() {
     
@@ -42,13 +43,25 @@ export default function Header() {
       </section>
 
       <section id = "about">
-        <p className = "about-me-font">Hi, my name is</p>
-        <h1 className = "name"><br />Riyaz Rabbani</h1>
-
+        <div class = "text-wrapper">
+          <p className = "about-me-font">Hi, my name is</p>
+          <p className = "name">Riyaz Rabbani 🚀</p>
+          <p className = "regular-font">I am a Computer science student at George Mason University. <br></br>
+          With a strong focus on Full-Stack development and Machine Learning/AI,
+          Here is a glimpse into who I am: </p>
+          <div class="container">
+            <h1 class="neonText pulsate">
+              Thanks for stopping by
+            </h1>
+        </div>
+        </div>
+        <div className = "image-wrapper">
+          <img className = "profile-img" src={profile} alt="Me" />
+        </div>
       </section>
 
       <section id = "skills">
-      <p className = "about-me-font">I am a software developer</p>
+      <p className = "about-me-font">plottin</p>
       </section>
 
       <section id = "experience">

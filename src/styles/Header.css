@@ -1,20 +1,24 @@
+/* Background Color */
+
 .background {
-    background-color: "#f0f0f0";
+    background-color: #f0f0f0;
 }
 
+/* Right Alignment */
 .right-align {
     float: right;
     margin-left: 10px;
 }
 
+/* Navbar Styling */
 .navbar {
     background-color: rgb(21, 20, 20);
 }
 
-
 .navbar-nav .nav-item .nav-link:active {
     color: white;
 }
+
 .navbar-nav {
     display: flex;
     align-items: center;
@@ -24,7 +28,6 @@
     margin-left: 10vh;
     font-size: 22px;
     margin-right: 10vh;
-
 }
 
 .nav-font {
@@ -36,9 +39,7 @@
     font-size: 20px;
 }
 
-
 @media (min-width: 992px) {
-    
     .navbar-toggler {
       display: none;
     }
@@ -48,55 +49,152 @@
     }
 }
 
-
-
-.name-font {
-    font-size: 10px;
-    color: white;
-    align-items: center;
-}
-
+/* Center Alignment */
 .center-align {
     display: flex;
     align-items: center;
 }
 
+/* Section Styling */
 #about {
     height: 100vh;
     background-color: rgb(37, 36, 36);
-    display: flex;
     justify-content: left;
     color: white;
     padding-left: 10vh;
-
+    display:flex;
 }
 
 #skills {
     height: 100vh;
     background-image: linear-gradient(90deg, #336468 0%, #1a181a 100%);
-        
 }
+
 #experience {
     height: 100vh;
     background-color: rgb(37, 36, 36);
-
 }
+
 #projects {
     height: 100vh;
     background-image: linear-gradient(90deg, #336468 0%, #1a181a 100%);
-    
 }
 
+/* Font Styling */
 .about-me-font {
+    margin-left: 0.5vh;
+    padding-top: 25vh;
+    font-size: 3vh;
     align-items: center;
     display: flex;
     color: rgb(48, 218, 181);
-    margin-bottom: 20vh;
+    font-family: sans-serif;
 }
+
 .name {
     font-size: 7vh;
-    display: flex;
-    align-items: center;
     justify-content: left;
     color: white;
+    padding-top: 0px;
+    font-family: sans-serif;
 }
+
+.regular-font {
+    font-size: 3vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 40vh; /* Adjust the width as needed */
+    height: 40vh; /* Adjust the height as needed */
+    border-radius: 50%; /* Make the image round */
+    
+  }
+
+.text-wrapper {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style for the image wrapper */
+/* Style for the image wrapper */
+.image-wrapper {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end; /* Align content to the right */
+  align-items: center; /* Center content vertically */
+  margin-right: 200px; /* Add some space between the text and the image */
+}
+
+
+
+.neonText {
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+  }
+    
+  body {
+    font-size: 18px;
+    font-family: "Yellowtail", sans-serif;
+    background-color: #010a01;
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png")
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: 400;
+  }
+    
+  h1 {
+    margin-top: 20vh;
+    margin-right: 0vh;
+      font-size: 4.2rem;
+      animation: pulsate 0.11s ease-in-out infinite alternate;     
+  }
+    
+  h2 {
+      font-size: 1.8rem;
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #5271ff,
+        0 0 80px #5271ff,
+        0 0 90px #5271ff,
+        0 0 100px #5271ff,
+        0 0 150px #5271ff;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #5271ff,
+      0 0 73px #5271ff,
+      0 0 80px #5271ff,
+      0 0 94px #5271ff,
+      0 0 140px #5271ff;
+  
+  }}
