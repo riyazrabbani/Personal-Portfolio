@@ -49,21 +49,29 @@ export default function Header() {
             <p className="regular-font">I am a Computer science student at George Mason University. <br></br>
               With a strong focus on Full-Stack development and Machine Learning/AI,
               Here is a glimpse into who I am: </p>
+            <a href="#skills" class="codepen-button"><span>My Skills</span></a>
             <div className="container">
               <h1 className="neonText pulsate">
                 🖥️🌃🔭☕
               </h1>
             </div>
           </div>
+
           <div className="image-wrapper">
-            <img className="profile-img" src={profile} alt="Me" />
+            <div className="card3">
+            <div class="card4">
+              <img className="profile-img" src={profile} alt="Me" />
+            </div>
+            </div>
           </div>
+
         </section>
 
         <section id="skills">
           <div class="card">
             <div class="card2">
               <div class="container-skills">
+
                 <div class="box-of-star1">
                   <div class="star star-position1"></div>
                   <div class="star star-position2"></div>
@@ -111,6 +119,11 @@ export default function Header() {
                   <div class="leg leg-right"></div>
                   <div class="schoolbag"></div>
                 </div>
+                <div class="loader">
+                  <span></span>
+                </div>
+                <p className="green-text">At least 13 skills detected.</p>
+                <p className='white-text'>Tech Stack</p>
                 <div class="skills-row">
                   <div class="skill">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
@@ -164,17 +177,17 @@ export default function Header() {
                   </div>
 
                   <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="MongoDB" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
                     <p className="skill-name">MongoDB</p>
                   </div>
 
                   <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="NodeJS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" />
                     <p className="skill-name">NodeJS</p>
                   </div>
 
                   <div class="skill">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Git" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
                     <p className="skill-name">Git</p>
                   </div>
                 </div>
