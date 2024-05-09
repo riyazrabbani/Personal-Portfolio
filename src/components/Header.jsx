@@ -1,5 +1,11 @@
 import '../styles/Header.css';
 import profile from '../assets/profile.jpeg'
+import gmu from '../assets/gmu.png'
+import jchs from '../assets/jchs.png'
+import zeta from '../assets/zeta.jpeg'
+import simplynotes from '../assets/notes.png'
+import frugalforesight from '../assets/frugalforesight.png'
+
 
 export default function Header() {
 
@@ -10,7 +16,7 @@ export default function Header() {
         <section>
           <nav className="scrolled navbar navbar-expand-lg navbar-dark fixed-top">
             <div className="container-fluid">
-              <a href="#" className="navbar-brand">:)</a>
+              <a href="#" className="navbar-brand">💎</a>
               <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="basic-navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -52,16 +58,16 @@ export default function Header() {
             <a href="#skills" class="codepen-button"><span>My Skills</span></a>
             <div className="container">
               <h1 className="neonText pulsate">
-                🖥️🌃🔭☕
+                🖥️  🌃  🔭  ☕
               </h1>
             </div>
           </div>
 
           <div className="image-wrapper">
             <div className="card3">
-            <div class="card4">
-              <img className="profile-img" src={profile} alt="Me" />
-            </div>
+              <div class="card4">
+                <img className="profile-img" src={profile} alt="Me" />
+              </div>
             </div>
           </div>
 
@@ -197,7 +203,89 @@ export default function Header() {
         </section>
 
         <section id="experience">
-          test
+          <div class="card5">
+            <div class="card4">
+              <div class="left-column">
+                <p className = "job-header-text">Education</p>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <img className = "job-text-img" src={gmu} alt="GMU" />
+                    <p className="job-text">
+                      George Mason University GPA: 3.88
+                    </p>
+                  </div>
+                </div>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <p className="job-text">
+                  <img className = "job-text-img" src={jchs} alt="John Champe HS" />
+
+                      John Champe High School GPA: 4.41
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="middle-column">
+              <p className = "job-header-text">Work Experience</p>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <p className="job-text">
+                  <img className = "job-text-img" src={zeta} alt="Zeta Associates" />
+                      SWE Intern @ Zeta Associates
+                    </p>
+                  </div>
+                </div>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <p className="job-text">
+                  <img className = "job-text-img" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                      Java Teaching Assistant
+                    </p>
+                  </div>
+                </div>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <p className="job-text">
+                  <img className = "job-text-img" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                      Python Teaching Assistant
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right-column">
+              <p className = "job-header-text">Projects</p>
+
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <img className = "job-text-img" src={simplynotes} alt="Simply Notes" />
+                  <p className="job-text">
+                      Simply Notes - Transcription Notes Generator 
+                    </p>
+                  </div>
+                </div>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <img className = "job-text-img" src={frugalforesight} alt="Frugal Foresight" />
+
+                  <p className="job-text">
+                      Frugal Foresight - Financial Planning / Goal Tracking Application
+                    </p>
+                  </div>
+                </div>
+                <div class="mini-card-color">
+                  <div class="mini-card-gray">
+                  <img className = "job-text-img" src= "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+                  <p className="job-text">
+                      AWS Serverless Website - S3, DynamoDB, Lambda
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <section id="projects">
