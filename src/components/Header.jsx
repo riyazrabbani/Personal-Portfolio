@@ -211,7 +211,7 @@ export default function Header() {
                   <div class="mini-card-gray">
                   <img className = "job-text-img" src={gmu} alt="GMU" />
                     <p className="job-text">
-                      George Mason University GPA: 3.88
+                      George Mason University <br></br> GPA: 3.88
                     </p>
                   </div>
                 </div>
@@ -220,7 +220,7 @@ export default function Header() {
                   <p className="job-text">
                   <img className = "job-text-img" src={jchs} alt="John Champe HS" />
 
-                      John Champe High School GPA: 4.41
+                      John Champe HS <br></br> GPA: 4.41
                     </p>
                   </div>
                 </div>
