@@ -128,7 +128,7 @@
   align-items: center;
   display: flex;
   color: rgb(48, 218, 181);
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .name {
@@ -137,6 +137,8 @@
   color: white;
   padding-top: 0px;
   font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .regular-font {
@@ -144,7 +146,7 @@
   color: white;
   display: flex;
   align-items: center;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Profile Image Styling */
@@ -163,6 +165,7 @@
   /* Take up remaining space */
   display: flex;
   flex-direction: column;
+
 }
 
 /* Style for the image wrapper */
@@ -200,7 +203,7 @@
 
 body {
   font-size: 18px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #010a01;
 }
 
@@ -208,6 +211,7 @@ h1,
 h2 {
   text-align: center;
   font-weight: 400;
+
 }
 
 h1 {
@@ -290,8 +294,7 @@ h2 {
 .card:hover,
 .card2:hover,
 .card3:hover,
-.card4:hover
- {
+.card4:hover {
   transform: scale(0.98);
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
 }
@@ -656,7 +659,8 @@ h2 {
 }
 
 .codepen-button {
-  display: block;
+  display: inline-block;
+  /* Changed from block to inline-block */
   cursor: pointer;
   color: white;
   margin: 0 auto;
@@ -668,13 +672,12 @@ h2 {
   padding: 3px;
   isolation: isolate;
   top: calc(10%);
-
 }
 
 /* Hover styles */
 .codepen-button:hover span {
   background-color: rgb(44, 44, 41);
-  color: white
+  color: white;
 }
 
 .codepen-button::before {
@@ -684,7 +687,7 @@ h2 {
   left: 0;
   width: 400%;
   height: 100%;
-  background: linear-gradient(115deg,#4fcf70,#fad648,#a767e5,#12bcfe,#44ce7b);
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
   background-size: 25% 100%;
   animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
   animation-play-state: paused;
@@ -885,30 +888,37 @@ h2 {
 
 
 .job-text {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
   color: white;
   display: flex;
-  align-items:center;
-  justify-content: flex-end; /* Adjusted to align text to the right */
-  padding-right: 2vh; /* Adjusted padding to the right */
+  align-items: center;
+  justify-content: flex-end;
+  /* Adjusted to align text to the right */
+  padding-right: 2vh;
+  /* Adjusted padding to the right */
 }
 
 .job-text-img {
-  width: 10vh; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  margin-left: 5vh; /* Adjust margin to create space between image and text */
+  width: 10vh;
+  /* Adjust the width as needed */
+  height: auto;
+  /* Maintain aspect ratio */
+  margin-left: 5vh;
+  /* Adjust margin to create space between image and text */
   margin-right: 5vh;
 }
 
 .job-header-text {
   color: rgb(255, 255, 255);
   font-size: 1.5rem;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  align-items:center;
-  justify-content: center; /* Adjusted to align text to the right */
-  padding-right: 2vh; /* Adjusted padding to the right */
+  align-items: center;
+  justify-content: center;
+  /* Adjusted to align text to the right */
+  padding-right: 2vh;
+  /* Adjusted padding to the right */
   animation: pulsate2 0.11s ease-in-out infinite alternate;
 
 }
@@ -944,4 +954,272 @@ h2 {
       0 0 140px #c20eb0;
 
   }
+}
+
+.resume {
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 18px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all .3s;
+  position: absolute;
+  top: 63.5vh;
+  /* Adjust as needed */
+  left: 50vh;
+  /* Adjust as needed */
+
+}
+
+.resume:active,
+.resume:hover {
+  outline: 0;
+}
+
+.resume span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.resume:hover span {
+  background: none;
+}
+
+.resume:active {
+  transform: scale(0.9);
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* To align text content */
+}
+
+.resume,
+.codepen-button {
+  width: 15vh;
+}
+
+
+.codepen-button {
+  /* Changed from block to inline-block */
+  cursor: pointer;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  overflow: hidden;
+  padding: 3px;
+  isolation: isolate;
+  left: 10vh;
+  top: 5vh
+}
+
+/* Hover styles */
+.codepen-button:hover span {
+  background-color: rgb(44, 44, 41);
+  color: white;
+}
+
+.codepen-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+  background-size: 25% 100%;
+  animation: an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop .75s linear infinite;
+  animation-play-state: paused;
+  translate: -5% 0%;
+  transition: translate 0.25s ease-out;
+  animation-play-state: running;
+  transition-duration: 0.75s;
+  translate: 0% 0%;
+}
+
+@keyframes an-at-keyframe-css-at-rule-that-translates-via-the-transform-property-the-background-by-negative-25-percent-of-its-width-so-that-it-gives-a-nice-border-animation_-We-use-the-translate-property-to-have-a-nice-transition-so-it_s-not-a-jerk-of-a-start-or-stop {
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+.codepen-button span {
+  position: relative;
+  display: block;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  background: #000;
+  border-radius: 3px;
+  height: 100%;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.close:hover {
+  color: black;
+}
+
+
+.resumeImg {
+  height: 95%;
+  margin-left: auto;
+  margin-right: 10vh;
+}
+
+
+@keyframes blinkCursor {
+  50% {
+    border-right-color: transparent;
+  }
+}
+
+@keyframes typeAndDelete {
+
+  0%,
+  10% {
+    width: 0;
+  }
+
+  45%,
+  55% {
+    width: 8em;
+    /* Increased width */
+  }
+
+  90%,
+  100% {
+    width: 0;
+  }
+}
+
+.terminal-loader {
+  width: 100%;
+  max-width: 600px;
+  /* Increased max-width */
+  height: 300px;
+  /* Increased height */
+  background: #1c1c1c;
+  border: 1px solid #ffffff3e;
+  border-radius: 15px;
+  /* Increased border radius */
+  overflow: hidden;
+  margin: 20px auto;
+  /* Centered horizontally */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  /* Adjusted box shadow */
+}
+
+.terminal-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Align controls to the right */
+  background-color: #343434;
+  padding: 12px;
+  /* Increased padding */
+}
+
+.terminal-controls {
+  display: flex;
+  gap: 10px;
+  /* Increased gap */
+  margin-left: auto;
+  /* Push controls to the right */
+}
+
+
+.terminal-title {
+  color: #eeeeeec1;
+}
+
+.content {
+  padding: 15px;
+  /* Increased padding */
+}
+
+.text {
+  margin-left: 5vh;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid green;
+  /* Increased border thickness */
+  animation: typeAndDelete 4s steps(11) infinite, blinkCursor 0.5s step-end infinite alternate;
+  color: rgb(0, 196, 0);
+  font-weight: 600;
+  font-size: 1.5em;
+  /* Increased font size */
+}
+
+
+.terminal-close::before {
+  content: "\2716";
+  /* Unicode character for a cross */
+  color: #e33;
+  /* Red color */
+  font-size: 1.2em;
+  margin-left: 50vh;
+
+}
+
+.terminal-close:hover::before {
+  color: #f00;
+  /* Brighter red on hover */
 }
