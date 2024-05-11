@@ -234,7 +234,7 @@ export default function Header() {
                 </div>
               </div>
 
-
+          
               <div class="middle-column">
                 <p className="job-header-text">Work Experience</p>
                 <div class="mini-card-color">
